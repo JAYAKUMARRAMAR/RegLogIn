@@ -1,2 +1,2 @@
 # RegLogIn
-Its a Java Full Stack CRUD Application with Controller Testing
+Its a Java Full Stack Registration and Login Application with Controller Testing
