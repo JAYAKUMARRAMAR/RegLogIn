@@ -4,7 +4,11 @@ body {
   background-color: green;
 }*/
 @import "~bootstrap/dist/css/bootstrap.min.css";
-
+.header{
+  background-color: rgb(138, 138, 207);
+  text-align: center;
+  color: rgb(204, 19, 19);
+}
 .footer {
     position: absolute;
     bottom: 0;

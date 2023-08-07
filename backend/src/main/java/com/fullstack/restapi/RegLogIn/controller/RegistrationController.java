@@ -17,6 +17,7 @@ public class RegistrationController {
     private User user;
     private RegistrationRepository repository;
     @PostMapping("/registeruser")
+    @CrossOrigin(origins = "http://localhost:4200")
     public User registerUser(@RequestBody User user) throws Exception
     {
         String tempEmailId=user.getEmailId();
@@ -41,6 +42,7 @@ public class RegistrationController {
     }
 
     @PostMapping("/login")
+    @CrossOrigin(origins = "http://localhost:4200")
     public User loginUser(@RequestBody User user) throws Exception
     {
         String tempEid=user.getEmailId();

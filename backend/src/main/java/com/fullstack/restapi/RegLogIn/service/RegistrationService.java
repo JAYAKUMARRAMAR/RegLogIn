@@ -9,8 +9,8 @@ import java.util.List;
 
 @Service
 public class RegistrationService {
-    @
-            Autowired
+
+    @Autowired
     private RegistrationRepository repo;
 
     public User saveUser(User user)
