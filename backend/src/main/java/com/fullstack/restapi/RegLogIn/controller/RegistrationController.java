@@ -34,6 +34,7 @@ public class RegistrationController {
     }
 
     @GetMapping("/user")
+    @CrossOrigin(origins = "http://localhost:4200")
     public List<User> registerUser()
     {
         return service.getUser(user);
