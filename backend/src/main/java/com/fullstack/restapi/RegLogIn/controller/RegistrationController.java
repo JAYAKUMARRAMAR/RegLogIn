@@ -14,7 +14,6 @@ public class RegistrationController {
 
     @Autowired
     private RegistrationService service;
-
     private User user;
     private RegistrationRepository repository;
     @PostMapping("/registeruser")
